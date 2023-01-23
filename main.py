@@ -2,14 +2,14 @@ import math
 
 class Dataset:
     def __init__(self):
-        self.data = [239,216,178,147,135]
+        self.data = []
         self.median = 0
         self.mean = 0
         self.range = 0
         self.variance = []
         self.standardDeviation = 0
 
-        #self.add()
+        self.add()
         self.stats()
         
     def add(self):
